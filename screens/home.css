@@ -1,0 +1,14 @@
+.story {
+  display: flex;
+  padding-top: 7.5px;
+}
+
+.story-img {
+  height: 66px;
+  width: 66px;
+  border-radius: 50%;
+}
+
+.round {
+  border-radius: 50%;
+}
