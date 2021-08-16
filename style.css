@@ -1,18 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700&display=swap");
 
+@import "reset.css";
+
 /*components*/
 @import "components/status-bar.css";
+@import "components/main-header.css";
+
+/*screens*/
+@import "screens/home.css";
 
 body {
   font-family: "Work Sans", sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 
 .phone-size {
-  width: 252px;
-  height: 545px;
-  border-radius: 20px;
-  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.3);
+  width: 378px;
+  height: 817.5px;
+  border-radius: 40px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
