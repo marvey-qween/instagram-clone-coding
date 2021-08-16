@@ -1,5 +1,18 @@
 .status-bar {
-  margin: 0px 25px;
   display: flex;
   justify-content: space-between;
+  margin: 24px 28px 0px 45px;
+}
+
+.status-bar_time,
+.status-bar_icons {
+  font-weight: 700;
+}
+
+.status-bar_icons-space {
+  padding-left: 10px;
+}
+
+.main {
+  padding-right: 10px;
 }
