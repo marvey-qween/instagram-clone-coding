@@ -1,0 +1,29 @@
+.notifications {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: -13px;
+  right: 1px;
+}
+
+.notification_small,
+.notification_small_2 {
+  display: block;
+  display: flex;
+  width: 5px;
+  height: 5px;
+  background-color: tomato;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.notification_small {
+  top: 42px;
+  right: 38px;
+}
