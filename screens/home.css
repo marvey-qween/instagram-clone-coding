@@ -59,3 +59,14 @@
   width: 378px;
   height: 378px;
 }
+
+.post_buttons-bar {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16.5px;
+  margin: 0px 5px;
+}
+
+.post_buttons-bar_icons {
+  padding: 0px 8px;
+}
