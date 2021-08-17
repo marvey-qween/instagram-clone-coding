@@ -10,6 +10,10 @@
   width: 123.2px;
 }
 
+.main-header_icons {
+  position: relative;
+}
+
 .header-icons {
   padding-left: 10px;
 }
