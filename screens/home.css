@@ -1,6 +1,21 @@
+.notifications {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: -13px;
+  right: 1px;
+}
+
 .story {
   display: flex;
   padding-top: 7.5px;
+  padding-bottom: 30px;
 }
 
 .profile-img {
@@ -16,7 +31,22 @@
 
 .post_member-bar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10.5px 10px 10.5px 10px;
+}
+
+.post_member {
+  display: flex;
+  align-items: center;
+}
+
+.post_member-name {
+  font-size: small;
+  font-weight: 600;
+  padding-left: 10px;
 }
 
 .post_member-pic {
