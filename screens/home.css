@@ -3,7 +3,7 @@
   padding-top: 7.5px;
 }
 
-.story-img {
+.profile-img {
   height: 66px;
   width: 66px;
   border-radius: 50%;
@@ -11,4 +11,21 @@
 
 .round {
   border-radius: 50%;
+  padding-left: 19.5px;
+}
+
+.post_member-bar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.post_member-pic {
+  width: 34.5px;
+  height: 34.5px;
+  border-radius: 50%;
+}
+
+.post_pic {
+  width: 378px;
+  height: 378px;
 }
